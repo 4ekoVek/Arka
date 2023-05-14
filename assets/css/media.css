@@ -1,0 +1,217 @@
+@media (max-width: 1450px) {
+    .products__item-img {
+        width: 70%;
+    }
+    .products__items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 1200px) {
+    .marchants__wrappers-image {
+        width: 24%;
+    }
+}
+@media (max-width: 950px) {
+    .header__wrapper {
+       flex-direction: column; 
+    }
+    .header__logo {
+        margin-bottom: 30px;
+    }
+    .header__nav {
+        margin-bottom: 30px;
+    }
+    .intro {
+        background-image: none;
+        background-color: #F2AE4D;
+        padding: 60px 0 90px;
+    }
+    .castom__items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .castom__wrapper {
+        margin-bottom: 9px;
+    }
+    .request__item--border {
+        border-right: none;
+    }
+    .footer__form {
+         padding: 2px 11px 7px 18px;
+    }
+    .marchants__wrappers {
+        flex-direction: column;
+        align-items: center;
+    }
+    .marchants__wrappers-image {
+        display: inline;
+        width: 49%;
+    }
+    .marchants__wrapper-images {
+        margin-bottom: 20px;
+
+    }
+    .marchants__wrappers-info {
+        max-width: 470px;
+    }
+}
+
+@media (max-width: 900px) {
+    .request__box {
+        flex-direction: column;
+    }
+    .request__item--border {
+        padding: 0;
+        margin-bottom: 8%;
+    }
+    .request__item--noborder {
+        margin-left: 0;
+    }
+    .marchants__rank-google {
+        border: none;
+        padding: 0;
+    }
+    .footer__wrapper {
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer__right {
+        align-items: center;
+    }
+    .footer__list-menu {
+        border-bottom: 1px solid #fff;
+        margin-bottom: 20%;
+    }
+    .footer__logo {
+        margin-bottom: 5%;
+    }
+}
+
+@media (max-width: 785px) {
+    .marchants__wrappers-info {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 700px) {
+    .header__menu {
+        flex-direction: column;
+    }
+    .header__menu-link {
+        padding: 13px 20px;
+        display: block;
+        border-bottom: 1px solid #eee;
+    }
+    .header__nav::before {
+        top: 10px;
+        left: 25px;
+    }
+    .products__wrapper {
+        flex-direction: column;
+    }
+    .products__title {
+        margin-bottom: 4%;
+        font-size: 27px;
+    }
+    .products__items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .products{
+        padding: 27px 0 119px;
+    }
+    .castom__wrapper {
+        margin-bottom: 3%;
+        padding: 37px 0 0 0;
+    }
+    .castom__warapper-titel {
+        font-size: 22px;
+    }
+    .castom__item-title {
+        font-size: 15px;
+    }
+    .castom__item-descr {
+        font-size: 12px;
+    }
+    .request__box {
+        padding: 45px 65px;
+    }
+    .marchants__rank {
+        flex-direction: column;
+        padding: 40px 190px;
+    }
+    .marchants__rank-shopify {
+        margin: 0;
+    }
+    .marchants__rank-google--first {
+        margin-bottom: 40px;
+    }
+    .marchants__wrapper-images--order {
+        order: -1;
+    }
+    .marchants__wrappers {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 520px) {
+    .products{
+        padding: 27px 0 119px;
+    }
+    .request__inner {
+        font-size: 9px;
+    }
+    .intro__box-titel {
+        font-size: 29px;
+        line-height: 32px;
+        height: auto;
+    }
+    .products__title {
+        text-align: center;
+    }
+    .products {
+        font-size: 22px;   
+    }
+    .products__inner {
+        flex-direction: column;
+    }
+    .products__inner-text {
+        margin-bottom: 3%;
+    }
+    .marchants__arka-titel {
+        font-size: 27px;
+    }
+}
+
+@media (max-width: 430px) {
+    .request__inner {
+        width: 64%
+    }
+    .request__inner-button{
+        padding: 2px 9px;
+    }
+    .marchants__wrapper-info {
+        flex-direction: column;
+    }
+    .marchants__wrappers-reviews {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .marchants__wrapper-left {
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 340px) {
+    .intro__box-titel {
+        font-size: 21px;
+        line-height: 27px;
+    }
+    .products__item {
+        width: 93%
+    }
+    .products__title {
+        margin-left: 32px;
+        font-size: 32px;
+    }
+    .products__item-descr{ 
+        font-size: 13px;
+    }
+}
